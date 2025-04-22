@@ -19,7 +19,7 @@ Edit these values in the main() function of `blackjack.py` to customize behavior
 
 ```python
 SIMULATE = 1000000 # How many Blackjack games to simulate
-PLAYER_HIT_UNTIL = 12 # Player hits while <= 12
+PLAYER_HIT_UNTIL = 12 # Player hits while hand value is less than 12
 CARDS_REMAINING = 20 # reshuffle threshold (%)
 ```
 
